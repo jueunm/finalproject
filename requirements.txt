@@ -1,0 +1,6 @@
+folium
+streamlit-folium
+yfinance
+plotly
+numpy
+matplotlib
