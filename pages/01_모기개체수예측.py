@@ -24,7 +24,7 @@ st.markdown(
 # 📁 데이터 로드
 # ------------------------
 
-url = "year_month_mosquito_sum.csv"
+url = "연도별_월별_모기_개체수_합계.csv"
 df = pd.read_csv(url, header=1, encoding='cp949')
 df.columns = ['연도', '월', '모기계']
 df['연도'] = df['연도'].astype(int)
