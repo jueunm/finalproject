@@ -4,5 +4,3 @@ yfinance
 plotly
 numpy
 matplotlib
-glob
-pandas
