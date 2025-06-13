@@ -6,7 +6,7 @@ import plotly.express as px
 st.title("대한민국 연도별·월별 모기 개체수 변화🦟")
 
 # 2️⃣ 깃허브 raw URL 또는 로컬 파일 경로
-url = "연도별_월별_모기_개체수_합계.csv"  # 필요 시 깃허브 raw URL로 변경
+url = "year_month_mosquito_sum.csv"  # 필요 시 깃허브 raw URL로 변경
 
 # ✅ encoding='cp949' 추가
 df = pd.read_csv(url, header=1, encoding='cp949')
